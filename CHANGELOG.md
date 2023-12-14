@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.19.0](https://github.com/taikoxyz/taiko-client/compare/v0.18.0...v0.19.0) (2023-12-14)
+
+
+### Features
+
+* **bindings:** update Go contract bindings ([#471](https://github.com/taikoxyz/taiko-client/issues/471)) ([23ce311](https://github.com/taikoxyz/taiko-client/commit/23ce3119478eaa025d05890a5b1c8188216beb29))
+* **proposer:** optimize proposer logs ([#464](https://github.com/taikoxyz/taiko-client/issues/464)) ([c7e899d](https://github.com/taikoxyz/taiko-client/commit/c7e899d547009b32e3d0762c55707cb4b85dcb8f))
+* **prover:** always send guardian proofs for guardian provers ([#470](https://github.com/taikoxyz/taiko-client/issues/470)) ([657f0e4](https://github.com/taikoxyz/taiko-client/commit/657f0e42d33447728c6028f7e7d4482343032962))
+* **prover:** change block signing to use timestamp as key ([#466](https://github.com/taikoxyz/taiko-client/issues/466)) ([eb5bc7a](https://github.com/taikoxyz/taiko-client/commit/eb5bc7a8b541e17e52f8b32b3f7d2104ad6ce0eb))
+* **prover:** refactor of guardian prover heartbeat signing / sending ([#472](https://github.com/taikoxyz/taiko-client/issues/472)) ([630924e](https://github.com/taikoxyz/taiko-client/commit/630924e4a331007e135dcfe61e9c48cf190d9647))
+* **prover:** support SGX prover with raiko-host ([#473](https://github.com/taikoxyz/taiko-client/issues/473)) ([a27d353](https://github.com/taikoxyz/taiko-client/commit/a27d35351c6a8f7232cdb098b7888ebc80c200f2))
+
+
+### Bug Fixes
+
+* **bindings:** fix `AssignmentHookABI` variable typo ([#468](https://github.com/taikoxyz/taiko-client/issues/468)) ([3b057f3](https://github.com/taikoxyz/taiko-client/commit/3b057f321bf051c150319406a76a3bbf03127572))
+* **prover:** change separator ([#469](https://github.com/taikoxyz/taiko-client/issues/469)) ([8e8897f](https://github.com/taikoxyz/taiko-client/commit/8e8897fbe905fc14279988028407f3773e1d0a00))
+
 ## [0.18.0](https://github.com/taikoxyz/taiko-client/compare/v0.17.0...v0.18.0) (2023-12-03)
 
 
